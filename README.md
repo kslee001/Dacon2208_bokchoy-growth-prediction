@@ -22,7 +22,7 @@
 
 ## 3. 진행 과정
 
-- Deep learning 모델들(LSTM, Transformer)을 직접 구현해 보는 것이 1차 목표였음
+- Deep learning 모델들(LSTM, Transformer)을 직접 구현해 보는 것이 1차 목표
     - Timeseries data 를 다뤄보는 것이 LSTM, Transformer 모델에 적합하다고 판단
 - 전처리
     - 초기에는 데이터의 전처리를 따로 수행하지 않았음
@@ -34,9 +34,11 @@
         - 시간과 관련된 변수를 cyclical continuous feature로 encoding
             - [https://ianlondon.github.io/blog/encoding-cyclical-features-24hour-time/](https://ianlondon.github.io/blog/encoding-cyclical-features-24hour-time/)
 - 모델 선정 및 훈련
-    - 공부하며 직접 만든 LSTM, Transformer 이용
-        - 직접 만든 transformer model이 가장 성능이 좋았음
-        → Transformer_0907_AB.py
+    - 공부하며 직접 만든 LSTM, Transformer 이용  
+    - torch가 제공하는 모델 이용  
+    - LSTM, Transformer 가 아닌 Linear based 모델 이용 -> 청경채 데이터에 적용하는 데 어려움을 겪음
+    - 직접 만든 transformer model이 가장 성능이 좋았음  
+        → Transformer_0907_AB.py  
     
 
 ### 4. Self-feedback?
