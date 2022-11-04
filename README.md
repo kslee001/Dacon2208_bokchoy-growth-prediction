@@ -1,5 +1,7 @@
 # DACON_2208 : 청경채 성장 예측 AI 경진대회
+- Structured Data   
 - Time Series Prediction  
+- Regression  
 
 ## 후기
 
