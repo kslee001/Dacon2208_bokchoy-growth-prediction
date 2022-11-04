@@ -1,5 +1,4 @@
-# DACON_2208 [Time Series Prediction] 
-: 청경채 성장 예측 AI 경진대회
+# DACON_2208 [Time Series Prediction] : 청경채 성장 예측 AI 경진대회
 
 ## 후기
 
